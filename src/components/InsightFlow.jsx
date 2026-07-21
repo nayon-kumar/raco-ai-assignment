@@ -94,7 +94,9 @@ export default function InsightFlow() {
                   </p>
 
                   <div className="mt-10 flex items-center text-cyan-400">
-                    <span className="text-sm font-medium">Learn More</span>
+                    <span className="text-sm font-medium cursor-pointer">
+                      Learn More
+                    </span>
 
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-2" />
                   </div>

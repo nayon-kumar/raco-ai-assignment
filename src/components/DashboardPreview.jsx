@@ -130,7 +130,7 @@ export default function DashboardPreview() {
                   <button
                     key={tab.id}
                     onClick={() => setActive(tab)}
-                    className={`rounded-full px-5 py-2 transition ${
+                    className={`rounded-full cursor-pointer px-5 py-2 transition ${
                       active.id === tab.id
                         ? "bg-cyan-500 text-black"
                         : "bg-white/5 text-zinc-400 hover:bg-white/10"

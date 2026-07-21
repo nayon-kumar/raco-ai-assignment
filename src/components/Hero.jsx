@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import DataVisualization from "./DataVisualization";
 
 export default function Hero() {
   return (
@@ -66,21 +67,10 @@ export default function Hero() {
         </motion.div>
 
         {/* Placeholder for 3D Scene */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.92 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
-          className="mt-24 flex h-[420px] w-full max-w-6xl items-center justify-center rounded-3xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent backdrop-blur-xl"
-        >
-          <div className="text-center">
-            <p className="text-lg font-medium text-zinc-300">
-              3D Data Visualization
-            </p>
-            <p className="mt-2 text-sm text-zinc-500">
-              React Three Fiber / Three.js will be integrated here
-            </p>
-          </div>
-        </motion.div>
+
+        <div className="mt-20 w-full max-w-6xl">
+          <DataVisualization />
+        </div>
       </div>
     </section>
   );
