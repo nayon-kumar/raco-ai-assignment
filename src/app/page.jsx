@@ -5,7 +5,7 @@ import SignatureInteraction from "@/components/SignatureInteraction";
 
 export default function Home() {
   return (
-    <div className="mt-50">
+    <div>
       <Hero />
       <InsightFlow />
       <DashboardPreview />
