@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import DataVisualization from "./DataVisualization";
 
 export default function Hero() {
-  return (
+  return(
     <section
       id="overview"
       className="relative flex min-h-screen items-center justify-center overflow-hidden bg-[#050816] px-6 pt-40"
@@ -72,6 +72,6 @@ export default function Hero() {
           <DataVisualization />
         </div>
       </div>
-    </section>
+    </section>,
   );
 }
