@@ -57,7 +57,7 @@ export default function Footer() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-8 flex items-center gap-2 rounded-full bg-white px-7 py-4 font-semibold text-black md:mt-0"
+            className="mt-8 flex items-center gap-2 rounded-full bg-white px-7 py-3 cursor-pointer font-semibold text-black md:mt-0"
           >
             Launch Workspace
             <ArrowUpRight size={18} />

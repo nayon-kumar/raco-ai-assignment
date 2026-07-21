@@ -1,15 +1,22 @@
 import DashboardPreview from "@/components/DashboardPreview";
 import Hero from "@/components/Hero";
 import InsightFlow from "@/components/InsightFlow";
+import SectionReveal from "@/components/SectionReveal";
 import SignatureInteraction from "@/components/SignatureInteraction";
 
 export default function Home() {
   return (
     <div>
-      <Hero />
-      <InsightFlow />
+      <SectionReveal>
+        <Hero />
+      </SectionReveal>
+      <SectionReveal>
+        <InsightFlow />
+      </SectionReveal>
       <DashboardPreview />
-      <SignatureInteraction />
+      <SectionReveal>
+        <SignatureInteraction />
+      </SectionReveal>
     </div>
   );
 }
