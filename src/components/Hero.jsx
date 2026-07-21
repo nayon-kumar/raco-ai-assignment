@@ -56,11 +56,11 @@ export default function Hero() {
           transition={{ delay: 0.45 }}
           className="mt-12 flex flex-wrap items-center justify-center gap-4"
         >
-          <button className="rounded-full bg-white px-7 py-3 font-medium text-black transition hover:scale-105">
+          <button className="rounded-full bg-white px-7 py-3 font-medium text-black transition hover:scale-105 cursor-pointer">
             Launch Workspace
           </button>
 
-          <button className="rounded-full border border-white/10 bg-white/5 px-7 py-3 font-medium text-white backdrop-blur-md transition hover:border-cyan-400/40 hover:bg-white/10">
+          <button className="rounded-full border border-white/10 bg-white/5 px-7 py-3 font-medium text-white backdrop-blur-md transition hover:border-cyan-400/40 hover:bg-white/10 cursor-pointer">
             Explore Flow
           </button>
         </motion.div>
