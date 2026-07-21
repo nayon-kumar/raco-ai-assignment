@@ -135,7 +135,7 @@ export default function SignatureInteraction() {
                 className="absolute rounded-xl border border-white/10 bg-white/5 px-5 py-3 text-sm text-zinc-300 backdrop-blur-xl"
                 style={{
                   left: `${18 + (index % 3) * 28}%`,
-                  top: `${18 + Math.floor(index / 3) * 48}%`,
+                  top: `${18 + Math.floor(index / 3) * 68}%`,
                   transform: "translateZ(60px)",
                 }}
               >
