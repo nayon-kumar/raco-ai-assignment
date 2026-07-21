@@ -117,7 +117,7 @@ export default function Footer() {
 
         {/* Bottom */}
 
-        <div className="mt-20 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 text-sm text-zinc-500 md:flex-row">
+        <div className="mt-20 flex flex-col items-center justify-between gap-6 border-t border-white/10 pt-8 text-sm text-zinc-500 md:flex-row text-center">
           <p>© 2026 Xai Intelligence Workspace. All rights reserved.</p>
 
           <p>Made with ❤️ by Nayon</p>

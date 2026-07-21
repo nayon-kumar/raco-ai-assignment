@@ -107,7 +107,7 @@ export default function DashboardPreview() {
                   >
                     <Icon size={16} className="sm:h-[18px] sm:w-[18px]" />
                     <span className="hidden sm:inline">{label}</span>
-                    <span className="sm:hidden">{label.charAt(0)}</span>
+                    <span className="sm:hidden">{label}</span>
                   </button>
                 ))}
               </nav>
