@@ -1,4 +1,4 @@
-# Xai – Intelligence Workspace
+# 🤖 Xai – Intelligence Workspace
 
 A high-fidelity interactive AI product experience built for the **RacoAI Frontend Challenge**. This project demonstrates how raw data is transformed into structured intelligence, actionable insights, and AI-powered automation through modern UI design, immersive animations, and interactive 3D visualization.
 
@@ -6,11 +6,45 @@ A high-fidelity interactive AI product experience built for the **RacoAI Fronten
 
 ## 🌐 Live Demo
 
-**Live Website: 👉** https://your-vercel-url.vercel.app
+**Live Website: 👉** https://raco-ai-assignment.vercel.app
 
 ---
 
-## 📋 Overview
+## 📸 Screenshots
+
+##### Hero Section
+
+<p align="center">
+  <img src="./screenshots/1.png" width="90%" />
+</p>
+
+##### Intelligence Flow Section
+
+<p align="center">
+  <img src="./screenshots/2.png" width="90%" />
+</p>
+
+##### Dashboard Preview
+
+<p align="center">
+  <img src="./screenshots/3.png" width="90%" />
+</p>
+
+##### Signature Interaction Section
+
+<p align="center">
+  <img src="./screenshots/4.png" width="90%" />
+</p>
+
+##### Footer Section
+
+<p align="center">
+  <img src="./screenshots/5.png" width="90%" />
+</p>
+
+---
+
+## 🎯 Overview
 
 **Xai – Intelligence Workspace** is a modern AI product interface that visually communicates the journey of data through an intelligent system.
 
@@ -100,7 +134,8 @@ Interactive section showcasing:
 - React
 - Tailwind CSS
 - Framer Motion
-- GSAP (if implemented)
+- GSAP
 - Three.js
 - React Three Fiber
 - Lucide React
+- React Icons
